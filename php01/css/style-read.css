@@ -1,0 +1,56 @@
+h1 {
+    text-align: center;
+    background-color: rgb(161, 203, 241);
+    line-height: 2;
+    margin: 12px 0 24px;
+    font-size: 24px;
+}
+
+.average {
+    text-align: center;
+    margin: 0;
+}
+
+#chart_div {
+    width: 900px;
+    margin: 0 auto 30px;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.noflex {
+    width: 100%;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: solid 1px grey;
+}
+
+th {
+    background-color: #2dadf7;
+    color: white;
+}
+
+tr:nth-child(odd) {
+    background-color: #e5f0f7;
+}
+
+li{
+    list-style: none;
+    text-align: center;
+}
+
+.page {
+    margin-top: 10px;
+}
