@@ -1,0 +1,68 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 500px;
+    margin: 0 auto;
+}
+
+header {
+    font-size: 1.4rem;
+    line-height: 2;
+    background-color: rgb(162, 205, 247);
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+form {
+    padding: 0 20px;
+}
+
+input, textarea {
+    line-height: 2;
+    width: 100%;
+    box-sizing: border-box;
+    resize: none;
+    border: 1px solid rgb(196, 193, 193);
+}
+
+.form-submit {
+    text-align: center;
+}
+
+.submit {
+    width: 100px;
+    background-color: rgba(185, 182, 182, 0.945);
+    border: none;
+}
+
+
+
+footer {
+    text-align: center;
+    background-color: rgb(162, 205, 247);
+    line-height: 2;
+    margin-top: 10px;
+}
+
+
+@media screen and (max-width:600px){
+    body {
+        width: 100%;
+        margin: 0;
+    }
+
+    .submit {
+        height: 40px;
+        width: 100%;
+        background-color: rgb(124, 102, 247);
+        border: none;
+        color: white;
+    }
+
+}
+  

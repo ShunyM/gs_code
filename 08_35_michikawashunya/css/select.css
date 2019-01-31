@@ -1,0 +1,68 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 500px;
+    margin: 0 auto;
+}
+
+header {
+    font-size: 1.4rem;
+    line-height: 2;
+    background-color: rgb(162, 205, 247);
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+.form-submit {
+    text-align: center;
+}
+
+.submit {
+    width: 100px;
+    background-color: rgba(185, 182, 182, 0.945);
+    border-radius: 8px;
+    border: none;
+}
+
+table {
+    width: 500px;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+th, td {
+    border: 1px solid rgb(209, 203, 203);
+    text-align: center;
+    padding: 0 5px;
+}
+
+input {
+    width: 90%;
+}
+
+.user-link {
+    text-align: center;
+}
+
+
+footer {
+    margin-top: 10px;
+    text-align: center;
+    background-color: rgb(162, 205, 247);
+    line-height: 2;
+}
+
+
+@media screen and (max-width:600px){
+    body {
+        width: 100%;
+        margin: 0;
+    }
+
+}
+  
